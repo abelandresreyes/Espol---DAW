@@ -1,0 +1,378 @@
+.wrapper{
+    width: 1200px;
+    height: 920px;
+    //background-color: cornsilk;
+    margin: 0 auto 0 auto;
+}
+
+.heading{
+    margin-top: 10px;
+    text-align: center; 
+    padding-top: 30px;
+    //background-color: fuchsia;
+    }
+.head1{ 
+    //background-color: blue;
+    margin-top: 0px;
+    font-size: 46pt;
+}
+.menu{
+    margin-top: -30px;
+}
+table {
+   margin-left: auto;
+    margin-right: auto;
+     border-collapse: collapse;
+}
+table th{
+    text-align: center;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    font-size: 26pt;
+    
+    padding: 10px 50px 10px 50px;
+}
+.active{
+    background-color: gainsboro;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.sideInformation{
+        float: left;
+        height: 600px;
+        width: 240px;
+        //background-color: aqua;
+    border: 1px solid #000000;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 6pt;
+    text-align: center;
+    
+}
+.stream{
+    font-size: 15pt;
+    margin-top: 180px;
+}
+
+.videowrapper{
+    
+    margin-left: 10px;
+    position: absolute;
+    
+    height: 50%;
+    width: :50%;
+    
+}
+.video{
+    border: 0;
+}
+.twitterWrapper{
+    margin-left: 7,5px;
+    max-width:  220px;
+    height: 340px;
+}
+
+.twitter-timeline{
+    margin-left: 10px;
+    display: inline-block;
+    //height: 340px !important;
+    width: 100% !important;
+    
+}
+.mainInformation{
+    float: right;
+    height: 600px;
+    width: 860px;
+    //background-color: coral;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.imageMain{
+    float: left;
+    margin-left: 10px;
+}
+.paragraphMain{
+    position: relative;
+    float: right;
+    width: 580px;
+    height: 160px;
+    //background-color: aquamarine;
+    text-align: justify;   
+}
+.paragraph1{
+    margin-top: 0px;
+    word-wrap: break-word;
+//  background-color: antiquewhite;
+    max-width: 580px;
+    font-size: 16pt;
+}
+
+.ending{
+    height: 100px;
+    width: 1120px;
+    //background-color: darkgrey;
+    margin-top: 640px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #000000;
+}
+.paragraph2{
+    word-wrap: break-word;
+    max-width: 320px;
+    text-align: justify;
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.imageEnding{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.Calendar{
+    text-align: left;
+    float: left
+}
+.fechasImp{
+    float: left;
+    text-align: left;
+    margin-left: -220px;
+    margin-top: 40px;
+}
+.calendario{
+    float: left;
+    margin-top: 210px;
+    margin-left: -220px;
+}
+.menuTable{
+    float: right;
+    margin-top: -220px;
+    width: 100%;
+}
+.mainTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    float: right
+}
+
+.mainTableH, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    font-size: 12pt;
+   
+}
+
+.trM:nth-child(odd) {
+    background-color: #dddddd;
+}
+//Quienes somos
+.qS{
+    margin-top: 0px;
+}
+.qSText{
+    font-size: 18pt;
+    margin-top: 0px;
+}
+.pQS{
+    word-wrap: break-word;
+    max-width: 400px;
+    max-height: 300px;
+    text-align: justify;
+    margin-top: -15px;
+    float: left;
+    margin-left: 0px;
+    font-size: 14pt;
+}
+.logoM{
+    float: right;
+    margin-top: -50px;
+    margin-right: 140px;
+}
+
+.logoV{
+    margin-right: 400px;
+    margin-top: 0px;
+}
+.vTitle{
+    float: right;
+    margin-right: 500px;
+    margin-top: -170px;
+}
+.pQS1{
+    word-wrap: break-word;
+    max-width: 400px;
+    max-height: 300px;
+    text-align: justify;
+    margin-top: -130px;
+    float: right;
+    margin-right: 180px;
+    font-size: 14pt;
+}
+//personal
+.datosPersonales{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.datosP{
+    float: left;
+    margin-top: 0px;   
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.paragraphDatosP{
+    float: left;
+    margin-left: 30px;
+    word-wrap: break-word;
+    max-width: 550px;
+    max-height: 300px;
+    text-align: justify;
+    margin-top: -10px;
+    font-size: 14pt;
+}
+.serviciosRegistrados{
+    margin-top: 0px
+}
+.serviciosR{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-decoration: underline;
+    
+}
+.listP{
+    margin-top: 0px;
+}
+.sR{
+    float: left;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+//encuentranos
+.encuentranos{
+    margin-top: 0px;
+}
+.envianosH{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 0px
+}
+.encuentranosForm{
+    font-size: 16pt;
+}
+.nombre{
+    margin-left: 20px;
+    width: 500px;
+    height: 20px;
+}
+.correo{
+    margin-left: 38px;
+    width: 500px;
+    height: 20px;
+}
+
+.underL{
+    text-decoration: underline;
+}
+.nadaR {
+    margin-left: 60px;
+    text-decoration: none !important;
+}
+.edadSelect{
+    margin-left: 160px;
+}
+.provincias{
+    margin-left: 120px;
+}
+.comments{
+    margin-top: 10px;
+}
+
+.noneL{
+    font-style: italic;
+    font-size: 12pt
+}
+.enviarBotonHolder{
+    text-align: center;
+}
+
+.botonE{
+    width: 100px;
+    height: 30px
+}
+
+
+
+.month {
+    padding: 0px 0px;
+    width: 140%;
+    background: #1abc9c;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: -240px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    width: 140%;
+        margin-left: -240px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width: 140%;
+    margin-left: -240px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
